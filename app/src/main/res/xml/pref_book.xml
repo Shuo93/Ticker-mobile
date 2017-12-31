@@ -1,0 +1,70 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_book_area_titles"
+        android:entryValues="@array/pref_book_area_entries"
+        android:key="area"
+        android:title="@string/pref_book_area_title" />
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="edit_text_preference_1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="页数" />
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="edit_text_preference_2"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="本数" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/list_preference_entries"
+        android:entryValues="@array/list_preference_entry_values"
+        android:key="list_preference_1"
+        android:title="规格" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/list_preference_entries"
+        android:entryValues="@array/list_preference_entry_values"
+        android:key="list_preference_2"
+        android:title="材质" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/list_preference_entries"
+        android:entryValues="@array/list_preference_entry_values"
+        android:key="list_preference_3"
+        android:title="重量" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="check_box_preference_1"
+        android:title="印刷" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="check_box_preference_2"
+        android:title="覆膜" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_preference_1"
+        android:title="装订" />
+    <ListPreference
+        android:defaultValue="180"
+        android:entries="@array/pref_label_titles"
+        android:entryValues="@array/pref_label_values"
+        android:key="label"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="装订类型" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/list_preference_entries"
+        android:entryValues="@array/list_preference_entry_values"
+        android:key="list_preference_4"
+        android:title="装订价格" />
+    <EditTextPreference
+        android:defaultValue="1.0"
+        android:key="scale"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_scale" />
+</PreferenceScreen>

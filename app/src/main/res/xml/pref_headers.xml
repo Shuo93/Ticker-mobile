@@ -1,0 +1,40 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.ticker.mobile.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/pref_header_general" />
+
+    <header
+        android:fragment="com.ticker.mobile.SettingsActivity$NotificationPreferenceFragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/pref_header_notifications" />
+
+    <header
+        android:fragment="com.ticker.mobile.SettingsActivity$DataSyncPreferenceFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="@string/pref_header_data_sync" />
+
+    <header
+        android:fragment="com.ticker.mobile.SettingsActivity$BoxPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="纸盒" />
+
+    <header
+        android:fragment="com.ticker.mobile.SettingsActivity$PocketPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="拎袋" />
+
+    <header
+        android:fragment="com.ticker.mobile.SettingsActivity$BookPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="样本册" />
+
+    <header
+        android:fragment="com.ticker.mobile.SettingsActivity$LabelPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/pref_title_label" />
+
+</preference-headers>
